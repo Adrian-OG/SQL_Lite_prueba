@@ -15,7 +15,7 @@ public class alumnoAdaptador extends RecyclerView.Adapter<alumnoAdaptador.ViewHo
 
  public static class ViewHolder extends RecyclerView.ViewHolder{
      private TextView tv_nombre, tv_codigo , tv_celular, tv_email;
-     private ImageView ic_person;
+
 
      public ViewHolder(View itemView){
          super(itemView);
@@ -23,7 +23,7 @@ public class alumnoAdaptador extends RecyclerView.Adapter<alumnoAdaptador.ViewHo
          tv_codigo = (TextView) itemView.findViewById(R.id.id_tv_codigo);
          tv_celular = (TextView) itemView.findViewById(R.id._id_tv_celular);
          tv_email = (TextView) itemView.findViewById(R.id.id_tv_email);
-         ic_person = (ImageView) itemView.findViewById(R.id.id_ic_person);
+
 
      }
  }
